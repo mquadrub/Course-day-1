@@ -1,0 +1,16 @@
+[workspace]
+channels = ["conda-forge"]
+name = "Exercise 1"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+numpy = ">=2.4.2,<3"
+matplotlib = ">=3.10.8,<4"
+
+[pypi-dependencies]
+numpy = "*"
+mtrf = ">=2.1.2, <3"
